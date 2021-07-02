@@ -7,19 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF5959592684627D00EB0EDB /* HalfModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5959582684627D00EB0EDB /* HalfModal.swift */; };
+		FF59595B2684648C00EB0EDB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59595A2684648C00EB0EDB /* Alert.swift */; };
+		FF59595D268466B900EB0EDB /* JoinRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59595C268466B900EB0EDB /* JoinRoomView.swift */; };
+		FF59595F26848C1300EB0EDB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59595E26848C1300EB0EDB /* RegisterView.swift */; };
+		FF59596126848E0000EB0EDB /* PasswordShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59596026848E0000EB0EDB /* PasswordShow.swift */; };
 		FFC5AC5726820DE300EB7B4E /* chatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC5626820DE300EB7B4E /* chatAppApp.swift */; };
 		FFC5AC5926820DE300EB7B4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC5826820DE300EB7B4E /* ContentView.swift */; };
 		FFC5AC5B26820DE500EB7B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC5AC5A26820DE500EB7B4E /* Assets.xcassets */; };
 		FFC5AC5E26820DE500EB7B4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC5AC5D26820DE500EB7B4E /* Preview Assets.xcassets */; };
+		FFC5AC6826820E1E00EB7B4E /* chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC6726820E1E00EB7B4E /* chat.swift */; };
+		FFC5AC6A26820E3300EB7B4E /* ChatModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC6926820E3300EB7B4E /* ChatModelView.swift */; };
+		FFC5AC6D26820EF600EB7B4E /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC6C26820EF600EB7B4E /* ChatBubble.swift */; };
+		FFC5AC6F2682194700EB7B4E /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC6E2682194700EB7B4E /* Extentions.swift */; };
+		FFC5AC7126821D4E00EB7B4E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC7026821D4E00EB7B4E /* HomeView.swift */; };
+		FFC5AC732682424F00EB7B4E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC722682424F00EB7B4E /* LoginView.swift */; };
+		FFC5AC7526824EB700EB7B4E /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5AC7426824EB700EB7B4E /* Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF5959582684627D00EB0EDB /* HalfModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModal.swift; sourceTree = "<group>"; };
+		FF59595A2684648C00EB0EDB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		FF59595C268466B900EB0EDB /* JoinRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinRoomView.swift; sourceTree = "<group>"; };
+		FF59595E26848C1300EB0EDB /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FF59596026848E0000EB0EDB /* PasswordShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordShow.swift; sourceTree = "<group>"; };
 		FFC5AC5326820DE300EB7B4E /* chatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC5AC5626820DE300EB7B4E /* chatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatAppApp.swift; sourceTree = "<group>"; };
 		FFC5AC5826820DE300EB7B4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FFC5AC5A26820DE500EB7B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFC5AC5D26820DE500EB7B4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFC5AC5F26820DE500EB7B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC5AC6726820E1E00EB7B4E /* chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat.swift; sourceTree = "<group>"; };
+		FFC5AC6926820E3300EB7B4E /* ChatModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModelView.swift; sourceTree = "<group>"; };
+		FFC5AC6C26820EF600EB7B4E /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		FFC5AC6E2682194700EB7B4E /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		FFC5AC7026821D4E00EB7B4E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FFC5AC722682424F00EB7B4E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FFC5AC7426824EB700EB7B4E /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF716CCB2684DFDF0069FBD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5AC5826820DE300EB7B4E /* ContentView.swift */,
+				FFC5AC7026821D4E00EB7B4E /* HomeView.swift */,
+				FFC5AC722682424F00EB7B4E /* LoginView.swift */,
+				FF59595E26848C1300EB0EDB /* RegisterView.swift */,
+				FF59595C268466B900EB0EDB /* JoinRoomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FFC5AC4A26820DE300EB7B4E = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +88,12 @@
 		FFC5AC5526820DE300EB7B4E /* chatApp */ = {
 			isa = PBXGroup;
 			children = (
+				FF716CCB2684DFDF0069FBD2 /* View */,
 				FFC5AC5626820DE300EB7B4E /* chatAppApp.swift */,
-				FFC5AC5826820DE300EB7B4E /* ContentView.swift */,
+				FFC5AC7426824EB700EB7B4E /* Controller.swift */,
+				FFC5AC6B26820EE600EB7B4E /* Components */,
+				FFC5AC6626820E0D00EB7B4E /* ViewModel */,
+				FFC5AC6526820E0200EB7B4E /* Model */,
 				FFC5AC5A26820DE500EB7B4E /* Assets.xcassets */,
 				FFC5AC5F26820DE500EB7B4E /* Info.plist */,
 				FFC5AC5C26820DE500EB7B4E /* Preview Content */,
@@ -67,6 +107,34 @@
 				FFC5AC5D26820DE500EB7B4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFC5AC6526820E0200EB7B4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5AC6726820E1E00EB7B4E /* chat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFC5AC6626820E0D00EB7B4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5AC6926820E3300EB7B4E /* ChatModelView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FFC5AC6B26820EE600EB7B4E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5AC6E2682194700EB7B4E /* Extentions.swift */,
+				FFC5AC6C26820EF600EB7B4E /* ChatBubble.swift */,
+				FF59595A2684648C00EB0EDB /* Alert.swift */,
+				FF5959582684627D00EB0EDB /* HalfModal.swift */,
+				FF59596026848E0000EB0EDB /* PasswordShow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +206,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC5AC7526824EB700EB7B4E /* Controller.swift in Sources */,
+				FF59596126848E0000EB0EDB /* PasswordShow.swift in Sources */,
+				FFC5AC6A26820E3300EB7B4E /* ChatModelView.swift in Sources */,
+				FF59595F26848C1300EB0EDB /* RegisterView.swift in Sources */,
+				FFC5AC7126821D4E00EB7B4E /* HomeView.swift in Sources */,
+				FFC5AC6D26820EF600EB7B4E /* ChatBubble.swift in Sources */,
+				FFC5AC6F2682194700EB7B4E /* Extentions.swift in Sources */,
+				FF59595D268466B900EB0EDB /* JoinRoomView.swift in Sources */,
 				FFC5AC5926820DE300EB7B4E /* ContentView.swift in Sources */,
+				FFC5AC6826820E1E00EB7B4E /* chat.swift in Sources */,
+				FFC5AC732682424F00EB7B4E /* LoginView.swift in Sources */,
+				FF59595B2684648C00EB0EDB /* Alert.swift in Sources */,
+				FF5959592684627D00EB0EDB /* HalfModal.swift in Sources */,
 				FFC5AC5726820DE300EB7B4E /* chatAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
